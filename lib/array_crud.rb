@@ -21,25 +21,36 @@ def add_element_to_start_of_array(array, element)
 end
 
  add_element_to_start_of_array([1,2,3,4], 5)
-
 #----------------------------------------------------------------
 
 def remove_element_from_end_of_array(array)
-  
+  5 = array.pop
 end
+ remove_element_from_end_of_array([1,2,3,4,5])
 #----------------------------------------------------------------
+
+
 def remove_element_from_start_of_array(array)
-  
+  1 = array.shift
 end
 
+ remove_element_from_start_of_array([1,2,3,4,5])
+#----------------------------------------------------------------
+ 
 def retrieve_element_from_index(array, index_number)
-  
+  array[index_number]
 end
-
+ retrieve_element_from_index([1,2,3,4,5], [2])
+ #----------------------------------------------------------------
+ 
 def retrieve_first_element_from_array(array)
-  
+  array[0]
 end
+ retrieve_first_element_from_array([1,2,3,4,5])
+#----------------------------------------------------------------
 
 def retrieve_last_element_from_array(array)
-  
+  array[-1]
 end
+
+retrieve_last_element_from_array([1,2,3,4,5])
